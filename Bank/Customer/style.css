@@ -1,0 +1,20 @@
+body{
+    background: rgb(1,19,38);
+    background: linear-gradient(90deg, rgba(1,19,38,1) 0%, rgba(9,45,121,1) 35%, rgba(0,134,255,1) 100%);
+}
+h1{
+    color: aliceblue;
+}
+.form{
+    width: 300px;
+    height: 30px;
+}
+a{
+    color:aliceblue;
+}
+
+#btn{
+    width: 50px;
+    height: 30px;
+}
+

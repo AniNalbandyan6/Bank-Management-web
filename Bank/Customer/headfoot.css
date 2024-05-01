@@ -1,0 +1,47 @@
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+    color: aliceblue;
+}
+
+a {
+    color: rgb(1, 19, 38);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px; /* Add padding to increase hover area */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+a:hover {
+    background: rgb(1, 19, 38);
+    background: linear-gradient(90deg, rgba(1, 19, 38, 1) 0%, rgba(9, 45, 121, 1) 35%, rgba(0, 134, 255, 1) 100%);
+    color: aliceblue;
+}
+
+
+
+#footer{
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

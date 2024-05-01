@@ -7,18 +7,11 @@
     <title>Home</title>
 </head>
 <body>
-    <div id="header">
-        <ul>
-            <li><a href="services.php">Ծառայություններ</a></li>
-            <li><a href="home.php">Իմ հաշիվը</a></li>
-        </ul>
-    </div>
+    <?php include_once "header.html"?>
         <center>
         <h1>Ծառայություններ</h1>
        
     </center>
-    <div id="footer">
-        <h6>All rigths reserved</h6>
-    </div>
+    <?php include_once "footer.html"?>
 </body>
 </html>
